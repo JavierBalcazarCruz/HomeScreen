@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo"> <!-- Reemplaza "logo.png" con la ruta a tu logo -->
+            </div>
+            <h1>Buenas noches, Javier.</h1>
+            <button class="logout-button">Cerrar Sesión</button>
+        </header>
+        <div class="widgets">
+            <div class="widget">
+                <h2>Hora Actual</h2>
+                <div class="time-container">
+                    <p id="time">9:03 PM</p> <!-- Aquí puedes ajustar la hora -->
+                </div>
+            </div>
+            <div class="widget">
+                <h2>Citas Programadas</h2>
+                <p>Pendientes: 4 clientes</p>
+                <p>Confirmadas: 10 clientes</p>
+                <p>Canceladas: 2 clientes</p>
+                <p>Pospuestas: 3 clientes</p>
+            </div>
+            <div class="widget">
+                <h2>Meta del mes</h2>
+                <p>50 Clientes / 100 clientes</p>
+                <p>50% de la meta cumplida</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--progress-width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="apps">
+            <div class="app">
+                <div class="icon" style="background-color: #FFDD00;"></div>
+                <h3>Dashboard</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #FFDD00;"></div>
+                <h3>Pacientes</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #3498DB;"></div>
+                <h3>Calendario</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #E74C3C;"></div>
+                <h3>Inventario</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #F39C12;"></div>
+                <h3>Directorio</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #8E44AD;"></div>
+                <h3>Baños</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #9B59B6;"></div>
+                <h3>Registrar Clientes</h3>
+            </div>
+            <div class="app">
+                <div class="icon" style="background-color: #1ABC9C;"></div>
+                <h3>Generador de recetas</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
